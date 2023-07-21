@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* home */
+#home {
+    background-image: url(./../../assets/images/christina-wocintechchat-com-L85a1k-XqH8-unsplash\ 1.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px 140px;
+}
+
+.navbar>.row-home {
+    width: 100%;
+}
+
+.navbar>.row-home>.col-title>a {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar>.row-home>.col-title>a>span {
+    font-size: 52px;
+    color: var(--soft-blue, #5468E7);
+}
+
+.navbar>.row-home>.col-center-menu>ul {
+    position: relative;
+    display: inline-table;
+}
+
+.navbar>.row-home>.col-center-menu>ul>li {
+    float: left;
+    padding-left: 56px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.navbar>.row-home>.col-center-menu>ul>li>a {
+    color: white;
+    border-bottom: 1px solid currentColor;
+    display: inline-block;
+    line-height: 0.01;
+}
+
+.navbar>.row-home>.col-last-menu>button {
+    padding: 10px 44px;
+    border-radius: 4px;
+    background-color: rgba(84, 104, 231, 0.5);
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar>.row-home>.col-last-menu>button:hover {
+    background-color: var(--soft-blue, #5468E7);
+}
+
+#home>.row-home-second {
+    height: 80vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#home>.row-home-second>.text-sentence {
+    color: var(--off-white, #F5F5F5);
+    margin: 0;
+    position: absolute;
+    font-style: normal;
+    padding-bottom: 16px;
+    width: 650px;
+    top: 30%;
+}
+
+#home>.row-home-second>.text-sentence>.sentence>.first-title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0.065em;
+}
+
+#home>.row-home-second>.text-sentence>.sentence>.second-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 397px;
+    padding-bottom: 45px;
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home {
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.input-field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.input-field input {
+    display: flex;
+    width: 325px;
+    height: auto;
+    padding: 11px 16px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+    border-radius: 4px;
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.input-field ::-webkit-input-placeholder {
+    color: var(--desaturated-blue, #7676B2);
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.input-field svg {
+    position: absolute;
+    top: 25%;
+    right: 16px;
+    width: 30px;
+    font-size: 24px;
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.button-group {
+    padding-left: 16px;
+}
+
+#home>.row-home-second>.text-sentence>.input-group-home>.button-group button {
+    display: flex;
+    padding: 9px 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--soft-blue, #5468E7);
+    color: var(--off-white, #F5F5F5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Footer */
+#Footer {
+    background: var(--dark-blue, #232340);
+    color: white;
+    padding: 73px 140px 0px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+#Footer .first-column>.team {
+    color: var(--off-white, #F5F5F5);
+    font-family: Lexend Deca;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+
+#Footer .first-column>.team>.dot {
+    color: var(--soft-blue, #5468E7);
+    font-family: Lexend Deca;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -1.04px;
+}
+
+#Footer .first-column>.des-team {
+    width: 168px;
+    color: var(--off-white, #F5F5F5);
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+    padding-top: 16px;
+}
+
+#Footer .other-column>.other-footer-column {
+    position: absolute;
+    top: 95px;
+    width: 138px;
+}
+
+#Footer .other-column>.other-footer-column>p,
+#Footer .last-column>.last-footer-column>p {
+    color: var(--soft-blue, #5468E7);
+    /* H3 */
+    font-family: Lexend Deca;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#Footer .other-column>.other-footer-column>ul,
+#Footer .last-column>.last-footer-column>a {
+    list-style: none;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+}
+
+#Footer .other-column>.other-footer-column>ul>li,
+#Footer .last-column>.last-footer-column>a {
+    padding-bottom: 12px;
+}
+
+#Footer .other-column>.other-footer-column>ul>li>a,
+#Footer .last-column>.last-footer-column>a {
+    text-decoration: none;
+    color: var(--off-white, #F5F5F5);
+}
+
+#Footer .last-column>.last-footer-column {
+    position: absolute;
+    top: 95px;
+    width: 268px;
+}
+
+#Footer .last-column>.last-footer-column>.input-field {
+    margin-top: 12px;
+    position: relative;
+}
+
+#Footer .last-column>.last-footer-column>.input-field input {
+    display: flex;
+    width: 268px;
+    padding: 11px 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 4px;
+    background: rgba(245, 245, 245, 0.24);
+}
+
+#Footer .last-column>.last-footer-column>.input-field ::-webkit-input-placeholder {
+    color: var(--off-white, #F5F5F5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.14px;
+}
+
+#Footer .last-column>.last-footer-column>.input-field svg {
+    position: absolute;
+    top: 25%;
+    right: 16px;
+    width: 30px;
+    font-size: 24px;
+}
+
+#Footer .last-row>p {
+    position: absolute;
+    color: var(--off-white, #F5F5F5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.14px;
+    bottom: 37px;
+}
